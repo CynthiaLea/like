@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>社区便利店</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<link rel="stylesheet" type="text/css" href="css/swiper.min.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+	<script src="js/swiper.min.js"></script>
+	<script src="js/commn.js"></script>
+</head>
+<body>
+	<header class="store-head">
+		<div class="store-pic"><img src="images/head1.png" alt=""></div>
+		<div class="store-intr">
+			<h1>社区便利店     (富奥店)</h1>
+			<p>0元起送  /  3元配送费  /  15分钟内送达</p>
+			<p><em class="jian icon fillet">减</em>满49元减12元 </p>
+		</div>
+	</header>
+	<section id="banner" class="banner">
+		<div class="swiper-container swiper1">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide"><img src="images/banner/banner2.jpg"></div>
+	            <div class="swiper-slide"><img src="images/banner/banner2.jpg"></div>	           
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination swiper1-pagination"></div>
+	    </div>
+	     <script>
+	    var swiper = new Swiper('.swiper1', {
+	        pagination: '.swiper1-pagination',	        	       
+	        paginationClickable: true,
+	        autoplay: 5000,
+	        effect: 'fade',
+	    });
+	    </script>
+	</section>
+	<section class="goods">
+		<div class="goods-menu">
+			<ul>
+				<li class="active">商品</li>
+				<li>评价</li>
+				<li>商家</li>
+			</ul>
+		</div>
+		<div class="goods-wrap">
+			<div class="g-left">
+				<ul>
+		            <li class="active"><a href="javascript:void(0)">新品上市</a></li>
+		            <li><a href="javascript:void(0)">超值套餐</a></li>
+		            <li><a href="javascript:void(0)">热卖</a></li>			           
+		        </ul>
+			</div>
+			<div class="g-right">
+				<h2>2016社区食堂，用心服务千家万户</h2>
+				<div class="goods-list">
+					<ul>
+						<li>
+							<div class="good-intr">
+								<div class="g-img"><img src="images/goods1.jpg" alt=""></div>
+								<div class="g-content">
+									<h2>可口可乐</h2>
+									<p><span>月售1689份</span><em>好评率89%</em></p>
+									<div class="g-price"><em><i>￥</i>2.5</em><a href="javascript:void(0)"><img src="images/add-y.png"></a></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="good-intr">
+								<div class="g-img"><img src="images/goods2.jpg" alt=""></div>
+								<div class="g-content">
+									<h2>可口可乐</h2>
+									<p><span>月售1689份</span><em>好评率89%</em></p>
+									<div class="g-price"><em><i>￥</i>2.5</em><a href="javascript:void(0)"><img src="images/add-y.png"></a></div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="good-intr">
+								<div class="g-img"><img src="images/goods3.jpg" alt=""></div>
+								<div class="g-content">
+									<h2>可口可乐</h2>
+									<p><span>月售1689份</span><em>好评率89%</em></p>
+									<div class="g-price"><em><i>￥</i>2.5</em><a href="javascript:void(0)"><img src="images/add-y.png"></a></div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="goods-car">
+			<div class="gd-list">
+				<div class="c-title"><span>购物车</span><a href="javascript:void(0)"><img src="images/delete.png">清空</a></div>
+				<div class="c-lsit">
+					<ul>
+						<li>
+							<div class="car-word">
+								<p>麻婆豆腐</p>
+								<em><i>￥</i>8</em>
+								<span>
+									<a href="javascript:void"><img src="images/reduce-y.png"></a>
+									<i>1</i>
+									<a href="javascript:void"><img src="images/add-y.png"></a>
+								</span>
+							</div>
+						</li>
+						<li>
+							<div class="car-word">
+								<p>麻婆豆腐</p>
+								<em><i>￥</i>8</em>
+								<span>
+									<a href="javascript:void"><img src="images/reduce-y.png"></a>
+									<i>1</i>
+									<a href="javascript:void"><img src="images/add-y.png"></a>
+								</span>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+			<div class="c-wrap none-img">
+				<div class="c-left">
+					<div class="c-img"><span><em><i>1</i></em></span></div>
+					<div class="c-price"><p><span>￥0</span><em>另需配送费￥3</em></p></div>
+				</div>
+				<div class="c-right">
+					<a href="javascript">￥20起送</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+</body>
+</html>

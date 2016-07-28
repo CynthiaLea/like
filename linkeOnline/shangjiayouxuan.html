@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>商家优选</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<header class="drop-menu top bottom2">
+		<ul>
+			<li><div class="drop-select"><span>全部</span><img src="images/down.png" alt=""></div></li>
+			<li>
+				<div class="drop-select"><span>附近</span><img src="images/down.png" alt=""></div>
+				<div class="drop-list">
+					<ol>
+						<li>测试</li>
+						<li>测试</li>					
+					</ol>
+				</div>
+			</li>
+			<li><div class="drop-select"><span>智能排序</span><img src="images/down.png" alt=""></div></li>
+			<li><div class="drop-select"><span>筛选</span><img src="images/down.png" alt=""></div></li>
+		</ul>
+	</header>
+	<div class="none"></div>
+	<section class="business-list">
+		<ul>
+			<li>
+				<a href="#" class="b-content">
+					<div class="b-img"><img src="images/food1.jpg" alt=""></div>
+					<div class="b-word">
+						<div class="b-cont">
+							<h2>海鲜烩秘制虾蟹(吉林大路店)</h2>
+							<div class="favorable"><span><i></i></span><em>￥19/人</em></div>
+							<div class="address"><span>海鲜</span><em>东盛<i>1.2km</i></em></div>
+						</div>
+						<div class="mode">
+							<p><em class="tuan fillet icon">团</em><span>2-3人餐158元，3-4人餐294元，4-6人餐342元</span></p>
+							<p><em class="quan fillet icon">券</em><span>79代100元</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="b-content">
+					<div class="b-img"><img src="images/food2.jpg" alt=""></div>
+					<div class="b-word">
+						<div class="b-cont">
+							<h2>星多客烤鱼</h2>
+							<div class="favorable">
+								<span><i></i></span>
+								<em>￥19/人</em>
+							</div>
+							<div class="address"><span>海鲜</span><em>东盛<i>1.2km</i></em></div>
+						</div>
+						<div class="mode">
+							<p><i>双人餐58.8元起</i></p>
+						</div>
+					</div>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="b-content">
+					<div class="b-img"><img src="images/food3.jpg" alt=""></div>
+					<div class="b-word">
+						<div class="b-cont">
+							<h2>海鲜大餐</h2>
+							<div  class="favorable"><span><i></i></span><em>￥19/人</em></div>
+							<div class="address"><span>海鲜</span><em>东盛<i>1.2km</i></em></div>
+						</div>
+						<div class="mode">
+							<p><em class="tuan fillet icon">团</em><span>2-3人餐158元，3-4人餐294元，4-6人餐342元</span></p>
+							<p><em class="quan fillet icon">券</em><span>79代100元</span></p>
+						</div>
+					</div>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".drop-menu ul li").click(function(){
+			$(".drop-list").toggle();	
+		});
+	});		
+	</script>
+</body>
+</html>

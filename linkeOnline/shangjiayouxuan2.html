@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black">
+	<meta name="format-detection" content="telephone=no">
+	<title>商家优选</title>
+	<link rel="stylesheet" type="text/css" href="css/css.css">
+	<script src="js/jquery-1.9.1.min.js"></script>
+</head>
+<body>
+	<header class="drop-menu top bottom2">
+		<ul>
+			<li><div class="drop-select"><span>全部</span><img src="images/down.png" alt=""></div></li>
+			<li>
+				<div class="drop-select"><span>附近</span><img src="images/down.png" alt=""></div>
+				<div class="drop-list">
+					<ol>
+						<li>测试</li>
+						<li>测试</li>					
+					</ol>
+				</div>
+			</li>
+			<li><div class="drop-select"><span>智能排序</span><img src="images/down.png" alt=""></div></li>
+			<li><div class="drop-select"><span>筛选</span><img src="images/down.png" alt=""></div></li>
+		</ul>
+	</header>
+	<div class="none"></div>
+	<section class="act-list">
+		<ul>
+			<li><a href="#"><img src="images/act1.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/act2.jpg" alt=""></a></li>
+			<li><a href="#"><img src="images/act3.jpg" alt=""></a></li>
+		</ul>
+	</section>
+	<script type="text/javascript">
+	$(document).ready(function() {
+		$(".drop-menu ul li").click(function(){
+			$(".drop-list").toggle();	
+		});
+	});		
+	</script>
+</body>
+</html>
